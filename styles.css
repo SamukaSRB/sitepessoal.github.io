@@ -1,0 +1,85 @@
+@media screen and (min-width: 50px) and (max-width: 900px){
+body{
+background-image:url(./img/download.png);
+ background-repeat: no-repeat;
+ background-size: cover;	
+}
+}
+@media screen and (min-width: 100px) and (max-width: 500px){
+.info{
+	text-align: center;
+	font-size: 15px;
+	opacity: 1.5;  		
+}
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+opacity: 0.5; 
+background-color:#F0FFFF;
+}
+
+.active {
+opacity: 0.4;
+  background-color: #4F4F4F;
+}
+
+ 
+  .rodape {
+   float:left;
+   opacity: 0.7; 
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:white;
+   text-align: center;
+}
+  .redesocial{
+  	float:right;
+  	align-items: left;
+  }
+
+.rodape a{
+	font-size: 37px;
+	padding: 15px;
+
+}
+.rodape a:hover{
+color:blue;
+}
+
+.animation{
+	text-align: center;
+	font-size: 370px;
+}
+.fas fa-circle-notch fa-spin{
+	
+	border: 5px;
+}
+
+
+
+
+
+
+
+
